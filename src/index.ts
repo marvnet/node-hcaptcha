@@ -4,7 +4,7 @@ export default async function (secret: string, token: string) {
     try {
         const response: any = await axios.post("https://hcaptcha.com/siteverify", {
             secret: secret,
-            token: token
+            response: token
         });
         if(response.status == 200) {
             if(response.json.success == true) {
