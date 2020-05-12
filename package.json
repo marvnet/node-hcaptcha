@@ -1,5 +1,6 @@
 {
   "name": "@marvnet/hcaptcha",
+  "private": false,
   "version": "1.0.0",
   "description": "Verify hCaptcha token",
   "main": "dist/index.js",
