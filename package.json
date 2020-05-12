@@ -22,8 +22,11 @@
     "url": "https://github.com/vastus/node-hcaptcha/issues"
   },
   "homepage": "https://github.com/vastus/node-hcaptcha#readme",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/node": "^13.13.5",
     "mocha": "^5.2.0",
     "nock": "^10.0.1",
