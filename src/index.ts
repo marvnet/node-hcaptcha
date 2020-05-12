@@ -12,6 +12,6 @@ export default async function (secret: string, token: string) {
             } else return false;
         } else return false;
     } catch(error) {
-        return false;
+        throw new Error(error);
     }
 }
