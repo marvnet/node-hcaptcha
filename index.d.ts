@@ -1,1 +1,1 @@
-delare module 'hcaptcha';
+declare module 'hcaptcha';
