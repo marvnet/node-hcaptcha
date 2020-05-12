@@ -1,20 +1,21 @@
 # hcaptcha
+## Original author: [vastus](https://github.com/vastus/node-hcaptcha)
 
 Verify hCaptcha token validity.
 
 ## Install
 
 ```
-npm install --save hcaptcha
+yarn add @marvnet/hcaptcha
 ```
 
 ## Usage
 
-```js
-const {verify} = require('hcaptcha');
+```typescript
+import { verify } from "@marvnet/hcaptcha";
 
-const secret = 'my hcaptcha secret from hcaptcha.com';
-const token = 'token from widget';
+const secret: string = 'my hcaptcha secret from hcaptcha.com';
+const token: string = 'token from widget';
 
 verify(secret, token)
   .then((data) => console.log('success!', data))
