@@ -1,0 +1,1 @@
+delare module 'hcaptcha';
