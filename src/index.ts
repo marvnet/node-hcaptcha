@@ -7,7 +7,7 @@ export default async function (secret: string, token: string) {
             response: token
         });
         if(response.status == 200) {
-            if(response.json.success == true) {
+            if(response.data.success == true) {
                 return true;
             } else return false;
         } else return false;
