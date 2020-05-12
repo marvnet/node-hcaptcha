@@ -2,9 +2,10 @@
   "name": "hcaptcha",
   "version": "0.0.1",
   "description": "Verify hCaptcha token",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,10 @@
   "homepage": "https://github.com/vastus/node-hcaptcha#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^13.13.5",
     "mocha": "^5.2.0",
-    "nock": "^10.0.1"
+    "nock": "^10.0.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
   }
 }
