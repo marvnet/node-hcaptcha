@@ -1,6 +1,6 @@
 {
-  "name": "hcaptcha",
-  "version": "0.0.1",
+  "name": "@marvnet/hcaptcha",
+  "version": "1.0.0",
   "description": "Verify hCaptcha token",
   "main": "dist/index.js",
   "scripts": {
